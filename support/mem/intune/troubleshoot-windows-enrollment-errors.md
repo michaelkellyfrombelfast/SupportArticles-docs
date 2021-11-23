@@ -234,6 +234,7 @@ When you try to enroll a Windows 10 device automatically by using Group Policy, 
 
 - The UPN contains an unverified or non-routable domain, such as `.local` (like joe@contoso.local).
 - **MDM user scope** is set to **None**.
+- **MDM user scope** is set to **SOME**, and excludes the user trying to join.
 
 #### Resolution
 
